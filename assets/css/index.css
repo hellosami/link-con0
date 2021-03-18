@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Poppins:wght@400;500;600;700;900&family=Source+Sans+Pro:wght@400;600;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0 !important;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none !important;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 0 50px !important;
+}
+
+.logo-wrapper {
+  height: 80px;
+  width: 194px;
+}
+
+.logo-wrapper > .logo {
+  height: 100%;
+}
+
+.nav__items {
+  font-size: 19px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-column-gap: 50px;
+}
+
+.nav__link > a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav__link > a:hover {
+  color: #196ee1;
+}
+
+.utils {
+  display: flex;
+  justify-content: space-between;
+  width: 194px;
+}
+
+.utils > button:nth-of-type(1) {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.utils > button:nth-of-type(1):hover {
+  border-color: #196ee1;
+}
+
+.navbar-toggler {
+  border-color: #fff !important;
+  display: none;
+}
+
+.secton__container {
+  padding: 100px 50px;
+}
+
+.section-1 {
+  background: url("../image/home-banner-bg.svg") bottom;
+  background-size: contain;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.title {
+  color: #0c304a;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  max-width: 777px;
+  margin: auto;
+  text-align: center;
+}
+
+.section p {
+  font-family: "Oswald", sans-serif;
+  margin: 24px 0;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-1 img {
+  width: 60%;
+}
+
+.section-1 h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  color: #0c304a;
+  letter-spacing: 2px;
+}
+
+.btn-book_meeting {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 2px solid #196ee1;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #196ee1;
+  margin: auto;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-book_meeting:hover {
+  font-weight: 800;
+  box-shadow: 0px 0px 5px 0px #196ee1;
+}
+
+.content-grid {
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 25px;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(0, 300px));
+}
+
+.content {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+  border-radius: 10px;
+  padding: 25px;
+  border-bottom: 3px solid #5a38fd;
+  cursor: pointer;
+  display: grid;
+  grid-gap: 24px;
+}
+
+.content:hover {
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.content h4 {
+  font-size: 25px;
+}
+
+.content h4 span {
+  color: #5a38fd;
+  margin-right: 10px;
+}

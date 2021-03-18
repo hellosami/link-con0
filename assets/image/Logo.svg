@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="74.347916mm"
+   height="36.777084mm"
+   viewBox="0 0 74.347916 36.777084"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(261.75598,-115.46314)">
+    <g
+       id="g911">
+      <rect
+         style="fill:#196ee1;fill-opacity:1;stroke-width:2.83211"
+         id="rect847"
+         width="74.347916"
+         height="36.777084"
+         x="-261.75598"
+         y="115.46314" />
+      <g
+         aria-label="Link."
+         id="text851"
+         style="font-style:normal;font-weight:normal;font-size:30.8343px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.770859">
+        <path
+           d="m -242.46863,145.09837 h -11.20152 v -21.59003 h 2.52938 v 19.30155 h 8.67214 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#ffffff;stroke-width:0.770859"
+           id="path893" />
+        <path
+           d="m -238.22289,125.76671 q -0.66245,0 -1.12918,-0.45167 -0.46673,-0.45168 -0.46673,-1.14424 0,-0.69257 0.46673,-1.14424 0.46673,-0.46673 1.12918,-0.46673 0.67751,0 1.14424,0.46673 0.48179,0.45167 0.48179,1.14424 0,0.66245 -0.48179,1.12918 -0.46673,0.46673 -1.14424,0.46673 z m 1.20447,19.33166 h -2.46916 v -15.41715 h 2.46916 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#ffffff;stroke-width:0.770859"
+           id="path895" />
+        <path
+           d="m -219.22245,145.09837 h -2.46916 v -8.79259 q 0,-4.90819 -3.58328,-4.90819 -1.85186,0 -3.07139,1.40019 -1.20446,1.38513 -1.20446,3.508 v 8.79259 h -2.46915 v -15.41715 h 2.46915 v 2.55949 h 0.0602 q 1.74648,-2.92083 5.05876,-2.92083 2.52937,0 3.86934,1.64109 1.33997,1.62603 1.33997,4.71247 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#ffffff;stroke-width:0.770859"
+           id="path897" />
+        <path
+           d="m -201.77277,145.09837 h -3.46284 l -6.80522,-7.40746 h -0.0602 v 7.40746 h -2.46915 v -22.8246 h 2.46915 v 14.46863 h 0.0602 l 6.474,-7.06118 h 3.23699 l -7.1515,7.43757 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#ffffff;stroke-width:0.770859"
+           id="path899" />
+        <path
+           d="m -198.38521,145.4296 q -0.69257,0 -1.18941,-0.49684 -0.48179,-0.49684 -0.48179,-1.18941 0,-0.69257 0.48179,-1.18941 0.49684,-0.5119 1.18941,-0.5119 0.70762,0 1.20446,0.5119 0.49684,0.49684 0.49684,1.18941 0,0.69257 -0.49684,1.18941 -0.49684,0.49684 -1.20446,0.49684 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Yu Gothic UI';-inkscape-font-specification:'Yu Gothic UI';fill:#ffffff;stroke-width:0.770859"
+           id="path901" />
+      </g>
+    </g>
+  </g>
+</svg>
