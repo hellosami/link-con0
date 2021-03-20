@@ -94,11 +94,12 @@ button {
 .section-1 {
   background: url("../image/home-banner-bg.svg") bottom;
   background-size: contain;
+  text-align: center;
 }
 
 .section:not(:last-child) {
   margin-bottom: 100px;
-  text-align: center;
+
 }
 
 .title {
@@ -115,9 +116,8 @@ button {
 .section p {
   font-family: "Oswald", sans-serif;
   margin: 24px 0;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
-  text-align: center;
 }
 
 .section-1 img {
@@ -130,6 +130,10 @@ button {
   font-size: 32px;
   color: #0c304a;
   letter-spacing: 2px;
+}
+
+.section-2, .section-3 {
+  text-align: center;
 }
 
 .btn-book_meeting {
@@ -166,6 +170,7 @@ button {
   cursor: pointer;
   display: grid;
   grid-gap: 24px;
+  text-align: left;
 }
 
 .content:hover {
@@ -173,7 +178,9 @@ button {
 }
 
 .content img {
-  max-width: 100%;
+  max-width: 250px;
+  height: 166.783px;
+  object-fit: contain;
 }
 
 .content h4 {
