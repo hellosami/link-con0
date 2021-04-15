@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/index.css?ver=1" />
-    <link rel="stylesheet" href="./assets/css/smScreen.css?ver=1" />
+    <link rel="stylesheet" href="./assets/css/index.css?ver=1.1" />
+    <link rel="stylesheet" href="./assets/css/smScreen.css?ver=1.1" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -19,6 +19,37 @@
     <title>Link Consultant</title>
   </head>
   <body>
+
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v10.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat"
+      attribution="setup_tool"
+      page_id="101901421981107">
+    </div>
+
+
+
+
+
+
     <div class="pos-f-t">
       <nav class="navbar navbar-dark bg-dark">
         <div class="logo-wrapper">
@@ -28,10 +59,8 @@
         <ul class="nav__items">
           <li class="nav__link"><a href="#">Home</a></li>
           <li class="nav__link"><a href="#">Services</a></li>
-          <li class="nav__link"><a href="#">Pricing</a></li>
-          <li class="nav__link"><a href="#">Client Success</a></li>
+          <li class="nav__link"><a href="#">Categories</a></li>
           <li class="nav__link"><a href="#">Contact</a></li>
-          <li class="nav__link"><a href="#">Blog</a></li>
         </ul>
 
         <div class="utils">
@@ -80,108 +109,152 @@
     </div>
 
     <div class="secton__container">
+
+    
+
       <div class="section section-1">
-        <h1 class="title">We're Your Digital Marketing Consultant</h1>
+        <br><br><br>
+        <h1 class="title">We're On Demand Business Consultant</h1>
         <p>
-          We're A Full-Service Consulting Firm That Works With Clients On A
-          Variety Of Projects & Masterminds From All Over The World.
+          Link. Connects Small, Mid-Range Businesses With Highly Experienced Consultants
         </p>
         <img src="./assets/image/herof.png" alt="" />
         <h3>Let's have our 1st meeting!</h3>
-        <p>
-          Who Knows, Maybe That 1 Meeting Will Reveal What You Need To Do For
-          The Next 2 Months!
-        </p>
+        <!-- <p>
+          Who Knows, Maybe That 1 Meeting Can Change Your Business Forever
+        </p> -->
         <button class="btn-book_meeting" onclick="location.href='https://forms.gle/QNzZvixyBR2EKLYW7'">Book a Meeting »</button>
       </div>
 
       <div class="section section-2">
         <h1 class="title">
-          Benefits Of Hiring Us As Your Digital Marketing Consultant
+          Our Services
         </h1>
-        <p>Will Do Anything To Increase Your Customer Base.</p>
+        <!-- <p>Will Do Anything To Increase Your Customer Base.</p> -->
         <div class="content-grid">
           <div class="content">
             <img src="./assets/image/generate-leads.png" alt="" />
-            <h3>Generate Leads</h3>
-            <p>
-              There Are A Lot Of Leads In The Sales Pipeline. We're Talking
-              About Leads.
-            </p>
+            <h3>Product Development</h3>
+            <ul>
+              <li>Product Development Planning</li>
+              <li>Market Research</li>
+              <li>Engineering Support</li>
+              <li>Web/ Mobile App Development</li>
+            </ul>
           </div>
 
           <div class="content">
             <img src="./assets/image/execution-strategy.png" alt="" />
-            <h3>Execution & Strategy</h3>
-            <p>
-              It's More Than Just A Digital Marketing Plan. Often, The
-              Execution.
-            </p>
+            <h3>Innovation</h3>
+            <ul>
+              <li>Idea To Market Launch Support</li>
+            </ul>
           </div>
 
           <div class="content">
             <img src="./assets/image/in-house-team.png" alt="" />
-            <h3>In-house Team</h3>
-            <p>Create Your Own Marketing Department Within Your Business.</p>
+            <h3>Sales</h3>
+
+            <ul>
+              <li>Direct Sales Planning</li>
+              <li>Market Activation</li>
+              <li>Supplier Acquisition</li>
+              <li>B2B Collaboration</li>
+              
+	            
+	            
+	            
+            </ul>
           </div>
         </div>
       </div>
 
       <div class="section section-3">
         <h1 class="title">
-          Let Us Spend Dedicated Consulting Hours For Your Business Growth.
+          Categories
         </h1>
-        <p>
-          If You Need A CMO OR Someone To Help You Get Your Business To The Next
-          Stage. We Will Help You Restructure Your Digital Strategy & Marketing
-          Goals.
-        </p>
         <div class="content-grid">
           <div class="content">
             <img src="./assets/image/marketing-strategy.png" alt="" />
-            <h3>Marketing Strategy</h3>
+            <h3>Hourly</h3>
             <h4>
-              <span class="material-icons">schedule</span> 5 Hours Monthly
+              <span class="material-icons">schedule</span> 1 Hour Meeting
             </h4>
-            <p>
+            <!-- <p>
               Marketing Plan Will Benefit From This. Founders Collaborate With
               Us.
-            </p>
+            </p> -->
           </div>
 
           <div class="content">
             <img src="./assets/image/ad-marketing.png" alt="" />
-            <h3>Ad Marketing</h3>
+            <h3>Weekly</h3>
             <h4>
-              <span class="material-icons">schedule</span> 5 Hours Monthly
+              <span class="material-icons">schedule</span> 4 Weekly Meeting
             </h4>
-            <p>
+            <!-- <p>
               Sell A Single Product OR Service Through A Single Marketing
               Channel.
-            </p>
+            </p> -->
           </div>
 
           <div class="content">
             <img src="./assets/image/inbound-marketing.png" alt="" />
-            <h3>Inbound Marketing</h3>
+            <h3>Monthly</h3>
             <h4>
-              <span class="material-icons">schedule</span> 5 Hours Monthly
+              <span class="material-icons">schedule</span> 10 Monthly Meeting
             </h4>
-            <p>
+            <!-- <p>
               Entice Consumers With Content & Watch The Business Grow Naturally.
-            </p>
+            </p> -->
           </div>
 
-          <div class="content">
-            <img src="./assets/image/cmo.png" alt="" />
-            <h3>We're Your CMO</h3>
-            <h4>
-              <span class="material-icons">schedule</span> 5 Hours Monthly
-            </h4>
-            <p>Create Your Own Team & Receive A Full Marketing Package.</p>
-          </div>
         </div>
       </div>
+
+      <style>
+        .footer-wrapper {
+          display: flex;
+          background-color: #343a40;
+          padding: 24px 50px;
+        }
+
+        .footer-wrapper > div {
+          color: #FFF;
+        }
+
+        .footer-wrapper > div span {
+          font-size: 16px !important;
+          position: relative;
+          top: 2px;
+          margin-right: 4px;
+        }
+
+        .footer-wrapper > div img{
+          width: 100px;
+        }
+
+        .footer-wrapper > div p{
+          max-width: 400px;
+          text-align: justify;
+        }
+      </style>
+
+      <div class="footer-wrapper">
+        <div>
+          <ul>
+            <li>
+              <img src="./assets/image/Logo.svg" alt="">
+              <p>Link. connects small, mid-range businesses with top-tier,highly experienced consultants and digital experts providing innovative, top of the line and effective solutions such as research for decision making, alliance building and strategies for future.</p>
+              <span class="material-icons">room</span>Dhaka, Bangladesh<br>
+              <span class="material-icons">alternate_email</span>hello.linkcon@gmail.com<br><br>
+              <span class="material-icons">copyright</span>2021 Link. Consultant
+
+            </li>
+          </ul>
+        </div>
+      </div>
+
     </div>
 
     <script

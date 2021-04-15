@@ -88,7 +88,7 @@ button {
 }
 
 .secton__container {
-  padding: 100px 50px;
+  
 }
 
 .section-1 {
@@ -121,7 +121,7 @@ button {
 }
 
 .section-1 img {
-  width: 60%;
+  width: 40%;
 }
 
 .section-1 h3 {
@@ -184,10 +184,12 @@ button {
 }
 
 .content h4 {
-  font-size: 25px;
+  font-size: 23px;
 }
 
 .content h4 span {
   color: #5a38fd;
   margin-right: 10px;
+  position: relative;
+  top: 3px;
 }
