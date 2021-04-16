@@ -9,7 +9,8 @@
 }
 
 ul {
-  list-style: none;
+  /* list-style: none; */
+  list-style-type: disc;
   margin: 0 !important;
 }
 
